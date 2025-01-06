@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practices</title>
+    <style>
+        form{
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+        label{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Submit the form</h2>
+        <div>
+            <label for="user-first">First Name:
+                <input type="text" name="" id="user">
+            </label>
+        </div>
+        <div>
+            <label for="user-last">Last Name:
+                <input type="text" name="" id="user">
+            </label>
+        </div>
+        <div>
+            <label for="email">Your Email:
+                <input type="email" name="" id="email">
+            </label>
+        </div>
+        <div>
+            <label for="password">Type Your Password
+                <input type="password" name="" id="password">
+            </label>
+        </div>
+
+
+        <!-- special inputs  -->
+         <fieldset>
+            <legend>Select Your teacher</legend>
+            <label for="physics">
+                <input type="radio" name="subject" id="physics">Gandu
+            </label>
+            <label for="physics">
+                <input type="radio" name="subject" id="Chemistry">Pandu
+            </label>
+            <label for="physics">
+                <input type="radio" name="subject" id="math">Londu
+            </label>
+         </fieldset>
+         <fieldset>
+            <legend>Select a subject</legend>
+            <label for="physics">
+                <input type="checkbox" name="subject" id="physics">Physics
+            </label>
+            <label for="physics">
+                <input type="checkbox" name="subject" id="Chemistry">Chemistry
+            </label>
+            <label for="physics">
+                <input type="checkbox" name="subject" id="math">Math
+            </label>
+         </fieldset>
+         <fieldset>
+            <legend>Write about your expectation</legend>
+            <label for="textarea">
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+            </label>
+         </fieldset>
+         <section>
+            <input type="reset" name="" id="">
+         </section>
+         <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
