@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>audio</title>
+    <style>
+         *{
+            margin: 0;
+         nav{
+            background-color: rgba(0, 0, 0, 0.185);
+        }
+        nav> ul{
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            list-style: none;
+            
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li class="nav"><a href="">Home</a></li>
+            <li class="nav"><a href="">About Me</a></li>
+            <li class="nav"><a href="fildset.html">My Project</a></li>
+            <li class="nav"><a href="video.html">Video files</a></li>
+            <li class="nav"><a href="video.html">Audeo files</a></li>
+        </ul>
+    </nav>
     <div class="audio">
         <audio controls src="audio sample.wav"></audio>
     </div>
