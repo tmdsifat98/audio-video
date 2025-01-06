@@ -16,6 +16,13 @@
         }
 
         /* Nav section starts here */
+        nav>div{
+            color: red;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            
+        }
         h2, div, fieldset{
             padding: 10px;
         }
@@ -24,10 +31,14 @@
         }
         nav{
             background-color: rgba(0, 0, 0, 0.185);
+            height: 65px;
+            display: flex;
+            justify-content: space-between;
         }
         nav> ul{
             display: flex;
             justify-content: end;
+            align-items: center;
             gap: 20px;
             padding: 10px;
         }
@@ -44,6 +55,7 @@
 </head>
 <body>
     <nav>
+        <div class="logo"><h3>Sifat.</h3></div>
         <ul>
             <li class="nav"><a href="">Home</a></li>
             <li class="nav"><a href="">About Me</a></li>
@@ -52,13 +64,6 @@
             <li class="nav"><a href="table.html">Table</a></li>
         </ul>
     </nav>
-
-
-
-
-
-
-
 
     <form action="">
         <h2>Submit the form</h2>
